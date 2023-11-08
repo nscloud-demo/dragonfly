@@ -1,8 +1,8 @@
 name: Daily Coverage
 
 on:
-    schedule:
-      - cron: '0 6 * * *' # run at 6 AM UTC
+    # schedule:
+    #   - cron: '0 6 * * *' # run at 6 AM UTC
     workflow_dispatch:
 
 jobs:

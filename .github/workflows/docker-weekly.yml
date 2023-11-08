@@ -1,9 +1,9 @@
 name: weekly docker build
 
 on:
-  schedule:
-    # Monday midnight
-    - cron: '0 0 * * 1'
+  # schedule:
+  #   # Monday midnight
+  #   - cron: '0 0 * * 1'
   workflow_dispatch:
 
 permissions:
